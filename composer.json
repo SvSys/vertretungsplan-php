@@ -1,0 +1,29 @@
+{
+  "name": "kingjan1999/vertretungsplan",
+  "description": "API for accessing Untis-Vertretungspläne",
+  "version" :"0.1",
+  "type": "library",
+  "require-dev": {
+    "rdir/simple-html-dom": "dev-master"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jan Beckmann",
+      "email": "king-jan1999@hotmail.de"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"},
+  "autoload": {
+    "psr-4": {
+      "Vertretungsplan\\": "src/vertretungsplan"
+    }
+  },
+  "source": {
+    "url": "git://github.com/SvSys/vertretungsplan-php.git",
+    "type": "git",
+    "reference": "master"
+  }
+}
