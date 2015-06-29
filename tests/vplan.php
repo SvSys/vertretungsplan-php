@@ -9,12 +9,11 @@ use Vertretungsplan\HttpManager;
  * User: jan
  * Date: 28.06.15
  * Time: 20:43
+ * Usage Example
  */
 
-$http = new HttpManager("http://ohgspringe.de/phocadownload/plan/subst_002.htm");
+$http = new HttpManager("http://ohgspringe.de/phocadownload/plan/subst_002.htm"); //institate new HttpManager with url of the vertretungsplan
 
-$plan = $http->fetchPlan();
+$plan = $http->fetchPlan(); //Fetch and analyze the plan
 
-error_reporting(E_ALL);
-
-echo json_encode($plan);
+print_r($plan->getVertretungenForCourse('5a')); //Search for substitutions concerning the 5a
