@@ -2,9 +2,6 @@
   "name": "kingjan1999/vertretungsplan",
   "description": "API for accessing Untis-Vertretungspläne",
   "type": "library",
-  "require-dev": {
-    "rdir/simple-html-dom": "dev-master"
-  },
   "license": "MIT",
   "authors": [
     {
@@ -14,7 +11,8 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=5.4.0",
+    "rdir/simple-html-dom": "dev-master"
   },
   "autoload": {
     "psr-4": {

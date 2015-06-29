@@ -4,9 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e8da4c0e0bbc53a24690331c65897ee0",
-    "packages": [],
-    "packages-dev": [
+    "hash": "512685425e61ed8a179437fb6c3a0b32",
+    "packages": [
         {
             "name": "rdir/simple-html-dom",
             "version": "dev-master",
@@ -45,6 +44,7 @@
             "time": "2015-06-07 21:24:20"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
