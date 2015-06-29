@@ -20,10 +20,5 @@
     "psr-4": {
       "Vertretungsplan\\": "src/vertretungsplan"
     }
-  },
-  "source": {
-    "url": "git://github.com/SvSys/vertretungsplan-php.git",
-    "type": "git",
-    "reference": "master"
   }
 }
