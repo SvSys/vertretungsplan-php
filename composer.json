@@ -2,6 +2,11 @@
   "name": "kingjan1999/vertretungsplan",
   "description": "API for accessing Untis-Vertretungspläne",
   "type": "library",
+  "keywords": [
+    "untis",
+    "vertretungsplan"
+  ],
+  "homepage": "https://github.com/SvSys/vertretungsplan-php",
   "license": "MIT",
   "authors": [
     {
