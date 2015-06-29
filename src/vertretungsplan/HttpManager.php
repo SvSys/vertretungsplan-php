@@ -1,8 +1,6 @@
 <?php
 namespace Vertretungsplan;
 
-require_once __DIR__ . '/../../vendor/autoload.php';
-
 use Vertretungsplan\VMeta;
 use Vertretungsplan\Vertretungsplan;
 
